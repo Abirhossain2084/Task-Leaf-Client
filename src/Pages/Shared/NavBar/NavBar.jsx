@@ -107,7 +107,7 @@ const NavBar = () => {
 
                                     <>
                                         <button onClick={handleLogOut} className="btn btn-ghost bg-[#B0926A]">
-                                            <Link to='/login'><li><a>Log out</a></li></Link>
+                                            <Link to='/'><li><a>Log out</a></li></Link>
                                         </button>
                                     </>
                                     :

@@ -94,7 +94,7 @@ const Register = () => {
     return (
 
         <div className="hero min-h-screen  py-32  "
-            style={{ backgroundImage: 'url("https://i.ibb.co/nQ3ZT4S/alex-kotliarskyi-QBp-ZGq-EMs-Kg-unsplash.jpg")', backgroundSize: 'cover' }}
+            style={{ backgroundImage: 'url("https://i.ibb.co/w479JMh/kelly-sikkema-LM17x-Cof-KA0-unsplash.jpg")', backgroundSize: 'cover' }}
         >
             <Helmet>
                 <title>Register</title>
@@ -166,12 +166,7 @@ const Register = () => {
                         </div>
 
                         <div className='flex gap-5'>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Salary</span>
-                                </label>
-                                <input type="text" name="salary" {...register("salary")} placeholder="Salary" className="input input-bordered" required />
-                            </div>
+                            
 
                             <div className="form-control">
                                 <label className="label">
@@ -187,21 +182,14 @@ const Register = () => {
 
 
                         {/* Dropdown for User's Role */}
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Role</span>
-                            </label>
-                            <select name="role" {...register("role")} className="select select-bordered" required>
-                                <option value="" disabled>Select a role</option>
-                                <option value="employee">Employee</option>
-                                <option value="hr">HR</option>
-                                {/* <option value="admin">Admin</option> */}
-                            </select>
-                        </div>
+                       
 
 
-                        <div className="form-control w-full my-6 border-2">
-                            <input {...register('image', { required: true })} type="file" className="file-input w-full max-w-xs" />
+                        <div className="form-control w-full my-6">
+                        <label className="label">
+                                    <span className="label-text">Photo</span>
+                                </label>
+                            <input {...register('image', { required: true })} type="file" className="file-input w-full " />
                         </div>
 
 

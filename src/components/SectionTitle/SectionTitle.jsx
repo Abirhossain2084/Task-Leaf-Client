@@ -2,9 +2,9 @@
 const SectionTitle = ({heading,subheading}) => {
     return (
         <div className="grid justify-center my-24 text-center">
-            <p className="text-[#A9B388]">{subheading}</p>
+            <p className="text-[#b8dfda]">{subheading}</p>
             <hr />
-            <h1 className="my-4 text-[#E1C78F] font-semibold text-3xl">{heading}</h1>
+            <h1 className="my-4 text-[#fcc2c0] font-semibold text-3xl">{heading}</h1>
             <hr />
         </div>
     );

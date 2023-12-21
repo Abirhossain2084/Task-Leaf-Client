@@ -10,7 +10,7 @@ const Banner = () => {
         <Carousel>
 
             <div className="h-[700px]">
-                <img src={'https://i.ibb.co/2vxdLV9/campaign-creators-g-Msn-Xq-ILjp4-unsplash.jpg'} />
+                <img src={'https://i.ibb.co/w479JMh/kelly-sikkema-LM17x-Cof-KA0-unsplash.jpg'} />
 
                 <Link to='/login'>
                     <button className="btn btn-ghost">
@@ -20,10 +20,10 @@ const Banner = () => {
 
 
             </div>
-            <div className="h-[700px]" >
+            <div className="h-[800px]" >
                 <img
 
-                    src={'https://i.ibb.co/XxjxH2g/tim-mossholder-GOMhu-Cj-O9w-unsplash.jpg'} />
+                    src={'https://i.ibb.co/1bggYCy/felipe-furtado-2z-DXqg-Tz-EFE-unsplash.jpg'} />
                 <Link to='/login'>
                     <button className="btn btn-ghost">
                         <p className="legend text-xl">Let's Explore</p>
@@ -38,8 +38,8 @@ const Banner = () => {
                     </button>
                 </Link>
             </div>
-            <div className="h-[700px]">
-                <img src={'https://i.ibb.co/xhJ0ZF1/pexels-rdne-stock-project-7580812.jpg'} />
+            <div className="h-[800px]">
+                <img src={'https://i.ibb.co/1z0qsBc/icons8-team-dh-Zt-Nlv-NE8-M-unsplash.jpg'} />
                 <Link to='/login'>
                     <button className="btn btn-ghost">
                         <p className="legend text-xl">Let's Explore</p>

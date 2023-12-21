@@ -67,7 +67,7 @@ const Login = () => {
 
     return (
         <div className="hero min-h-screen py-20 "
-        style={{ backgroundImage: 'url("https://i.ibb.co/nQ3ZT4S/alex-kotliarskyi-QBp-ZGq-EMs-Kg-unsplash.jpg")', backgroundSize: 'cover' }}
+        style={{ backgroundImage: 'url("https://i.ibb.co/w479JMh/kelly-sikkema-LM17x-Cof-KA0-unsplash.jpg")', backgroundSize: 'cover' }}
         >
             <Helmet>
                 <title>Login</title>
@@ -75,8 +75,8 @@ const Login = () => {
             <div className="hero-content flex border bg-gradient-to-r from-indigo-500  to-[#4F6F52]  shadow-2xl rounded-lg ">
 
                 <div className="text-center md:w-1/2 lg:text-left">
-                <h1 className='text-4xl text-center my-2 text-white font-bold'>Log in Here</h1>
-                    <img src={'https://i.ibb.co/48W0S6j/P-modern-abstract-logo-design-P-logo-P-letter-logo-template-removebg-preview.png'} alt="" />
+                <h1 className='text-4xl text-center my-2 text-[#15b625]   font-bold'>Log in Here</h1>
+                    <img src={'https://i.ibb.co/Js1T1y3/Green-Black-Illustration-Simple-Community-Logo-2-removebg-preview.png'} alt="" />
                     
                 </div>
 
